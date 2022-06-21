@@ -1,2 +1,4 @@
 # Cartpole-Problem-for-RL-
 CartPole, also known as inverted pendulum, is a game in which you try to balance the pole as long as possible. It is assumed that at the tip of the pole, there is an object which makes it unstable and very likely to fall over. The goal of this task is to move the cart left and right so that the pole can stand (within a certain angle) as long as possible.
+In this post, we will look at reinforcement learning, a field in artificial intelligence where the AI explores the environment all by itself by playing the game many many times until it learns the right way to play the game.
+at the beginning of the training, the agent has no idea of where to move a cart. After a while, the agent moves toward a direction but, of course, it is impossible to bring the pole to the other side with such speed. For the last one, the agent knows the correct way to balance the pole which is the move left and right repeatedly.
